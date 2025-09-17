@@ -1,7 +1,5 @@
 # Multi-AI RAG Assistant
 
-![Application Screenshot](./RAG.jpg)
-
 ## Overview
 
 This is a Retrieval-Augmented Generation (RAG) application built with Python and Tkinter. It provides a graphical user interface to create a local, searchable knowledge base from PDF documents. Users can then ask questions or submit prompts, which are augmented with relevant information from the knowledge base and sent to one of several supported Large Language Model (LLM) providers for a response.
@@ -29,6 +27,8 @@ The entire application, including the necessary embedding model, can be bundled 
 -   **Configurable AI Parameters**: Adjust settings like model, temperature, max tokens, and top-p for each provider directly in the UI.
 -   **Standalone Executable**: The included `build.bat` script packages the application and all its dependencies (including the embedding model) into a single `.exe` file for easy distribution and use on Windows.
 -   **Session Persistence**: API keys and model settings are saved locally in a `settings.json` file.
+
+![Application Screenshot](./RAG.jpg)
 
 ## Setup and Build
 
